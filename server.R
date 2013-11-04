@@ -11,7 +11,7 @@ shinyServer(function(input, output, clientData){
           vals$mess <- "You're not Batman"
         } else{
           pr <- possibleReviewers[-c(1, which(possibleReviewers == input$user))]
-          if( input$nojohn ){
+          if( input$nojohn & input$user != "John Hill" ){
             pr <- pr[-which(pr == "John Hill")]
           }
           rev <- sample(pr, 1)
