@@ -7,9 +7,7 @@ possibleReviewers <- c("Batman",
                        "Jay Hodgson",
                        "Bruce Hoff",
                        "Xa Schildwachter",
-                       "Heidi So",
-                       "Eric Wu",
-                       "Joseph Wu")
+                       "Eric Wu")
                        
 
 possibleLeadins <- c("Congratulations! Your code will be reviewed by",
